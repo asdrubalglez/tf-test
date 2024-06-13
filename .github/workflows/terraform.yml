@@ -1,6 +1,6 @@
 name: testing terraform
 
-on: push
+on: [push, pull_request]
 jobs:
   terraform:
     name: terraform
